@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/java http://www.mulesoft.org/schema/mule/jav
 	</http:listener-config>
 	<flow name="sampleFlow" doc:id="105b42fb-5b41-4c00-839b-f9f03b7ec774" >
 		<http:listener doc:name="Listener" doc:id="132ff85a-6806-4c53-bb29-45b75aab8389" config-ref="HTTP_Listener_config" path="/"/>
-		<set-payload value='#["vksh"]' doc:name="Set Payload" doc:id="ea2a5aa5-7935-429d-a723-0cc9585742de" />
+		<set-payload value='#["vkshs"]' doc:name="Set Payload" doc:id="ea2a5aa5-7935-429d-a723-0cc9585742de" />
 	</flow>
 </mule>
